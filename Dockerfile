@@ -14,5 +14,7 @@ COPY --from=stage /usr/local/bin/webdis /usr/local/bin/
 COPY --from=stage /etc/webdis.prod.json /etc/webdis.prod.json
 RUN echo "daemonize yes" >> /etc/redis.conf
 CMD /usr/bin/redis-server /etc/redis.conf && /usr/local/bin/webdis /etc/webdis.prod.json
+RUN cat /etc/redis.conf
+RUN cat /etc/webdis.prod.json
 
 EXPOSE 7379
