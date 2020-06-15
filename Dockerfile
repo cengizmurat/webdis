@@ -16,6 +16,6 @@ RUN echo "daemonize yes" >> /etc/redis.conf
 CMD /usr/bin/redis-server /etc/redis.conf && /usr/local/bin/webdis /etc/webdis.prod.json
 RUN ls /var/log
 RUN ls /var/log/redis
-RUN chmod a+rw /var/log/redis/redis.log
+RUN chmod a+rw /var/log/redis
 
 EXPOSE 7379
