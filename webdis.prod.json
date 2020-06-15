@@ -24,5 +24,5 @@
 	],
 
         "verbosity": 3,
-        "logfile": "/var/log/webdis.log"
+        "logfile": "webdis.prod.log"
 }
