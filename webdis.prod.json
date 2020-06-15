@@ -2,7 +2,7 @@
 	"redis_host":	"172.30.7.117",
 
 	"redis_port":	6379,
-	"redis_auth":	null,
+	"redis_auth":	"redis-2wh0Y1XjdkGmnTly-server",
 
 	"http_host":	"0.0.0.0",
 	"http_port":	8080,
@@ -18,6 +18,6 @@
     }
 	],
 
-        "verbosity": 3,
+        "verbosity": 7,
         "logfile": "webdis.prod.log"
 }
