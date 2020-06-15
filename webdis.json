@@ -16,6 +16,9 @@
 	"database":	0,
 
 	"acl": [
+    {
+      "disabled": ["GET", "SET", "DEL", "DEBUG", "FLUSHDB", "FLUSHALL"]
+    }
 	],
 
         "verbosity": 6,
