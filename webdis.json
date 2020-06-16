@@ -17,10 +17,10 @@
 
 	"acl": [
     {
-      "disabled": ["GET", "SET", "DEL", "DEBUG", "FLUSHDB", "FLUSHALL"]
+      "enabled": ["GET", "SET", "DEL", "DEBUG", "FLUSHDB", "FLUSHALL"]
     }
 	],
 
-        "verbosity": 7,
-        "logfile": "webdis.log"
+  "verbosity": 7,
+  "logfile": "webdis.log"
 }
